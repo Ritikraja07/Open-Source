@@ -1,7 +1,7 @@
 # Open-Source
 Web Development Mini Projects
 
-# iBlog
+# Open Source (Web Dev Mini Project)
 
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-friendly-orange.svg)](https://hacktoberfest.com/)
 
