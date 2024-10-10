@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .blog-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 20px auto;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .blog-card:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .blog-content {
+            padding: 20px;
+        }
+
+        .blog-title {
+            font-size: 24px;
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .blog-description {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .read-more {
+            display: inline-block;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .read-more:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="blog-card">
+        <img src="https://via.placeholder.com/400x200" alt="Blog Image">
+        <div class="blog-content">
+            <h2 class="blog-title">Sample Blog Post</h2>
+            <p class="blog-description">This is a short description of the blog post. It gives an overview of the content and entices readers to click and read more.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+
+</body>
+</html>
